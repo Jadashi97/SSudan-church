@@ -1,9 +1,12 @@
+import React from "react";
+import  pic1 from "../pics/ss1.jpg"
+
 
 function About() {
     return (
       <div className="about-us">
         <h1>BELIEFS, MISSION, OUTREACH AND COMMUNITY</h1>
-        <img href="#events" alt="myimage" src="public/ss1.jpg" ></img>
+        <img  alt="myimage" src={pic1} ></img>
         <p>Attack feet behind the couch destroy couch flop over give attitude hide when guests come over
            hopped up on goofballs hunt anything that moves shake treat  why must they do that,  
            leave dead animals as gifts  intrigued by the shower swat at dog intently stare at 
