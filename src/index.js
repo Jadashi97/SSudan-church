@@ -6,23 +6,24 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/Home';
 import About from './Components/About';
+import Events from './Components/Events';
+import Sermons from './Components/Sermons';
+import Offering from './Components/Offering';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<App/>}>
               <Route path="Home" element={<Home/>}/>
                 <Route path="About" element={<About/>}/>
-                {/* <Route path="Events" element={<Events/>}/>
+                <Route path="Events" element={<Events/>}/>
                 <Route path="Sermons" element={<Sermons/>}/>
-                <Route path="Giving" element={<Giving/>}/> */}
+                <Route path="Offering" element={<Offering/>}/> 
             </Route>
           </Routes>
         </BrowserRouter>
-  </React.StrictMode>
     
 );
 
