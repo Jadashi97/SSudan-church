@@ -5,8 +5,8 @@ import {Link, Outlet } from "react-router-dom";
 
 function Header(){
     return(
-        <header>
-            <div className="">
+        <>
+            <div className="header">
                 <nav>
                     <h1>SouthSudanese Community Church</h1>
                     <div>
@@ -19,7 +19,7 @@ function Header(){
                 </nav>
                 <Outlet/>   
             </div>
-        </header>
+        </>
 
     )
 }
