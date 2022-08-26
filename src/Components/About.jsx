@@ -1,5 +1,5 @@
 import React from "react";
-import  pic1 from "../pics/ss1.jpg"
+import  pic1 from "../pics/ss5.jpg"
 
 
 function About() {

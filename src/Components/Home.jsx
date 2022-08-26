@@ -1,5 +1,5 @@
 import React from "react";
-import  pic2 from "../pics/ss2.jpg"
+import  pic2 from "../pics/ss3.jpg"
 
 
 
