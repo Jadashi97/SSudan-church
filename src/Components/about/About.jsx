@@ -1,11 +1,12 @@
 import React from "react";
-import  pic1 from "../pics/ss5.jpg"
+import  pic1 from "/Users/nyarjijada/Desktop/Personal-Main-Projects/southsudanese-church/src/pics/ss5.jpg"
+import "./about.css"
 
 
 function About() {
     return (
       <div className="about-us">
-        <h1>BELIEFS, MISSION, OUTREACH AND COMMUNITY</h1>
+        <h2>BELIEFS, MISSION, OUTREACH AND COMMUNITY</h2>
         <img  alt="myimage" src={pic1} width={1000} height={700} ></img>
         <h4>Welcome </h4>
         <div className="about-1">

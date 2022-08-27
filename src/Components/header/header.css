@@ -1,0 +1,24 @@
+.header{
+    padding: 2rem;
+    background-color: bisque;
+    /* display: flex; */
+}
+
+nav{
+    /* padding: 30px, 15px; */
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+Link{
+    display: block;
+    justify-content:space-around;
+}
+
