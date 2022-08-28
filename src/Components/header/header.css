@@ -1,5 +1,5 @@
 .header{
-    padding: 2rem;
+    padding: 1rem;
     background-color: bisque;
     /* display: flex; */
 }
@@ -11,14 +11,24 @@ nav{
     text-align: right;
 }
 
+.heading{
+    margin-left: 3rem;
+}
+
 h1{
-    font-size: 2rem;
-    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    /* margin-top: 0.5rem; */
     text-align: left;
+    margin-right: 4rem;
+    /* display:inline-block; */
 }
 
-Link{
-    display: block;
-    justify-content:space-around;
+
+.links{
+    justify-content:baseline;
 }
 
+a{
+    padding-right: 40px;
+    padding-left: 40px;
+}
