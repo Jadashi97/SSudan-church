@@ -28,7 +28,7 @@ h1{
     justify-content:baseline;
 }
 
-a{
+ .links a{
     padding-right: 40px;
     padding-left: 40px;
 }

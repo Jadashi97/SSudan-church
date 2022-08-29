@@ -8,16 +8,17 @@ function About() {
       <div className="about-us">
         <h2>BELIEFS, MISSION, OUTREACH AND COMMUNITY</h2>
         <img  alt="myimage" src={pic1} width={1000} height={700} ></img>
-        <h4>Welcome </h4>
+        <h2>Welcome</h2>
         <div className="about-1">
             <p> 
-              We are happy that you are interested in learning more about SouthSudanese Community Church. 
-              Our prayer is that you'll find this as your community and your church home to praise and worship together. 
-
-              We want you to feel at home from the very beginning. No matter what stage of life you are in, we want you to feel welcomed, encouraged, and cared for as you come to Grace. 
-              We strive to be a people who love each other well and point each other to Jesus.
-          </p>  
+              We are happy that you are interested in learning more about SouthSudanese Community Church.</p>
+            
+            <p>Our prayer is that you'll find this as your community and your church home to praise and worship together.</p>  
+            <p>
+              We want you to feel at home from the very beginning. No matter what stage of life you are in, we want you to feel welcomed, encouraged, and cared for as you come to Grace.</p>
+             <p> We strive to be people who love each other well and point each other to Jesus.</p>
         </div>
+              
       </div>
     );  
   }
