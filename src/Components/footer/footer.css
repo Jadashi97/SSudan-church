@@ -2,9 +2,23 @@
     padding-left: 1rem;
     padding-right: 1rem;
     height: 100px;
+    margin-top: 20px;
+
 }
 
-.address .p{
-    background-color: rgb(200, 60, 60);
+.footer-links{
+    margin-top: 30px;
+    margin-left: 15rem;
+}
+
+.address{
     margin-left: 20px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(165, 153, 153);
+    padding: 40px;
 }
