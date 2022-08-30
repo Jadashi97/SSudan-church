@@ -14,11 +14,18 @@
 .address{
     margin-left: 20px;
     margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer{
     display: flex;
     flex-direction: row;
-    background-color: rgb(165, 153, 153);
+    background-color: rgb(235, 196, 156);
     padding: 40px;
+}
+.short{
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }

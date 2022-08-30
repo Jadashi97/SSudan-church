@@ -9,9 +9,14 @@ function Footer(){
         <div>
             <div className="footer">
                 <div className="address">
-                    <p>715 fridley </p>
+                    755 73rd Ave NE, 
+                    <br />
+                    Minneapolis,
+                    <br />
+                    MN 55432
+                    {/* <p>715 fridley </p>
                     <p>MN</p>
-                    <p>MN</p> 
+                    <p>MN</p>  */}
                 </div>
                 <div className="footer-links">
                     <a href="/home">Home</a> |
@@ -20,6 +25,15 @@ function Footer(){
                     <a href="/sermons">Sermons & Teaching</a> |
                     <a href="/Offering"><button>Offering</button></a> |
                 </div> 
+                <div className="short">
+                    South
+                    <br />
+                    Sudanese 
+                    <br />
+                    Community
+                    <br />
+                    Church
+                </div>
             </div>
         </div>
     )

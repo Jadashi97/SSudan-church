@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import {Link, Outlet } from "react-router-dom";
 import "./header.css";
 // import  logo from "../pics/logo.png"
 
-// import './App.css';
 
 
 function Header(){
@@ -26,8 +25,7 @@ function Header(){
                             <Link to="/events">Events</Link> | {" "}
                             <Link to="/sermons">Sermons & Teaching</Link> | {" "}
                             <Link to="/Offering"><button>Offering</button></Link> | {" "}
-                        </div>
-                        
+                        </div>        
                     </div>
                 </nav>
                 <Outlet/>   
