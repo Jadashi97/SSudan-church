@@ -1,5 +1,6 @@
 import React from "react";
-import  pic2 from "/Users/nyarjijada/Desktop/Personal-Main-Projects/southsudanese-church/src/pics/ss3.jpg";
+import pic7 from "/Users/nyarjijada/Desktop/Personal-Main-Projects/southsudanese-church/src/pics/ss7.JPG";
+
 import "./home.css";
 
 
@@ -8,7 +9,7 @@ function Home(){
     return(
         <div >
             <div className="home-page">
-                <img  alt="myimage" src={pic2} width={1000} height={700} ></img>
+                <img src={pic7} alt="" width={1000} height={800} />           
                 <h2>Our Mission</h2>
                 <div className="homely">
                     <p>As a Community, we aim to glorify God by making disciples by reaching and teaching all people with the life-changing message of Jesus Christ.</p>

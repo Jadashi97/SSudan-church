@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/home/Home';
 import About from './Components/about/About';
-import Events from './Components/Events';
+import Events from './Components/activities/Events';
 import Sermons from './Components/Sermons';
 import Offering from './Components/Offering';
 
