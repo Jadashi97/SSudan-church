@@ -1,6 +1,7 @@
 import React from "react";
 import {Link, Outlet } from "react-router-dom";
 import "./header.css";
+import Button from 'react-bootstrap/Button';
 // import  logo from "../pics/logo.png"
 
 
@@ -24,7 +25,7 @@ function Header(){
                             <Link to="/about">About us</Link> | {" "}
                             <Link to="/events">Events</Link> | {" "}
                             <Link to="/sermons">Sermons & Teaching</Link> | {" "}
-                            <Link to="/Offering"><button>Offering</button></Link> | {" "}
+                            <Link to="/Offering"><Button variant="primary">Offering</Button></Link> | {" "}
                         </div>        
                     </div>
                 </nav>

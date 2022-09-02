@@ -1,13 +1,13 @@
 .events-page{
     display: flexbox;
     text-align: center;
-    padding-left: 100px;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .carousel{
     text-align: center;
-    padding-left: 400px;
+    /* align-items: center; */
+    padding-left: 15rem;
 }

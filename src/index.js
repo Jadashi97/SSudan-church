@@ -7,7 +7,7 @@ import Home from './Components/home/Home';
 import About from './Components/about/About';
 import Events from './Components/activities/Events';
 import Sermons from './Components/Sermons';
-import Offering from './Components/Offering';
+import Offering from './Components/giving/Offering';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
