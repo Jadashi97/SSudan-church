@@ -9,7 +9,7 @@ function Home(){
     return(
         <div >
             <div className="home-page">
-                <img src={pic7} alt="" width={1000} height={800} />           
+                <img src={pic7} alt="" className="home-img" width={1000} height={800} />           
                 <h2>Our Mission</h2>
                 <div className="homely">
                     <p>As a Community, we aim to glorify God by making disciples by reaching and teaching all people with the life-changing message of Jesus Christ.</p>

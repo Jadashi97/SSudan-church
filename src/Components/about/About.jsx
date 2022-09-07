@@ -7,7 +7,7 @@ function About() {
     return (
       <div className="about-us">
         <h2>BELIEFS, MISSION, OUTREACH AND COMMUNITY</h2>
-        <img  alt="myimage" src={pic1} width={1000} height={700} ></img>
+        <img  alt="myimage" src={pic1} width={1000} height={700} className="about-img" ></img>
         <h2>Welcome</h2>
         <div className="about-1">
             <p> 

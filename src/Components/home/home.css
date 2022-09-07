@@ -1,9 +1,13 @@
 
 .home-page{
     text-align: center;
-    padding: 1rem;
 }
 
 .homely{
     word-wrap: break-word;
+}
+
+.home-img{
+    text-align: center;
+    padding: 2rem;
 }

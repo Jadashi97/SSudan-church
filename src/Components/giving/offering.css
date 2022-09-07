@@ -1,13 +1,12 @@
-.giving{
+.giving-page{
     text-align: center;
-    padding-left: 10rem;
 }
 
-img{
-    padding-left: 15rem;
+.giving-img{
+   align-items: center;
 }
 
 .how-to-give{
-    padding-top: 3rem;
+    padding: 2rem;
     margin-left: 2rem;
 }

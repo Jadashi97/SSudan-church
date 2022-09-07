@@ -1,7 +1,9 @@
 .header{
     padding: 0.5rem;
     background-color: rgb(235, 196, 156);
-    /* display: flex; */
+    display: flexbox;
+    cursor: pointer;
+    /* height: 8rem; */
 }
 
 nav{
@@ -12,7 +14,8 @@ nav{
 }
 
 .heading{
-    margin-left: 3rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
 }
 
 h1{
@@ -26,15 +29,18 @@ h1{
 
 .links{
     padding-bottom: 20px;
-    padding-top: -40px;
+    /* padding-top: -40px; */
     margin-right: 60px;
 }
 
 .links a{
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
-.Button{
-    size: 10rem;
+@media only screen and  (min-width: 1024px) {
+    .header  .links nav{
+      display: flex;
+    }
+  
 }

@@ -16,14 +16,13 @@ function Events(){
         <div>
             <div className="events-page">
                 <h2 className="">Together we are stronger</h2>
-                <Carousel className="carousel"> 
-                        <img src={pic11} alt="" width={900} height={700} />
-                        <img src={pic9} alt="" width={900} height={700} />
-                        <img src={pic10} alt="" width={900} height={700} />
-                        <img src={pic8} alt="" width={900} height={700} />
-                    <img  alt="myimage" src={pic2} width={1000} height={700} ></img>
-
-                </Carousel> 
+                    <Carousel className="carousel-imgs"> 
+                        <img src={pic11} alt="" width={900} height={700}  className="carousel-imgs" />
+                        <img src={pic9} alt="" width={900} height={700}  className="carousel-imgs"/>
+                        <img src={pic10} alt="" width={900} height={700} className="carousel-imgs" />
+                        <img src={pic8} alt="" width={900} height={700} className="carousel-imgs" />
+                        <img  alt="myimage" src={pic2} width={1000} height={700} className="carousel-imgs" ></img>
+                    </Carousel> 
             </div>
             
             
