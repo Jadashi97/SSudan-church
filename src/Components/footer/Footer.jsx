@@ -9,30 +9,32 @@ function Footer(){
         <div>
             <div className="footer">
                 <div className="address">
-                    755 73rd Ave NE, 
-                    <br />
-                    Minneapolis,
-                    <br />
-                    MN 55432
-                    {/* <p>715 fridley </p>
-                    <p>MN</p>
-                    <p>MN</p>  */}
+                    <strong>
+                        755 73rd Ave NE, 
+                        <br />
+                        Minneapolis,
+                        <br />
+                        MN 55432
+                    </strong>
+                    
                 </div>
                 <div className="footer-links">
                     <a href="/home">Home</a> |
                     <a href="/about">About us</a> |
                     <a href="/events">Events</a> |
                     <a href="/sermons">Sermons & Teaching</a> |
-                    <a href="/Offering"><button>Offering</button></a> |
+                    <a href="/Offering"><button><strong>Offering</strong></button></a> |
                 </div> 
                 <div className="short">
-                    South
-                    <br />
-                    Sudanese 
-                    <br />
-                    Community
-                    <br />
-                    Church
+                    <strong>
+                        South
+                        <br />
+                        Sudanese 
+                        <br />
+                        Community
+                        <br />
+                        Church
+                    </strong>
                 </div>
             </div>
         </div>

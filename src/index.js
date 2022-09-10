@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/home/Home';
 import About from './Components/about/About';
 import Events from './Components/activities/Events';
-import Sermons from './Components/Sermons';
+import Sermons from './Components/sermons/Sermons';
 import Offering from './Components/giving/Offering';
 
 
